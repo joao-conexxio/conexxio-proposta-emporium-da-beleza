@@ -1,0 +1,288 @@
+{
+  "slug": "emporium-da-beleza",
+  "negocio": {
+    "nome": "Emporium da Beleza · Balneário Camboriú",
+    "logo": "brand/logo.svg",
+    "whatsapp": "5547996200016",
+    "unidades": [
+      {
+        "bairro": "Centro · Balneário Camboriú",
+        "endereco": "R. 620, 380 – Centro, Balneário Camboriú – SC, 88330-622",
+        "telefone": "(47) 99620-0016",
+        "horario": "Horários e agenda pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#D81B6A",
+    "brand2": "#A3124F",
+    "ink": "#2A1D24",
+    "bg": "#FFFAFC",
+    "pulse": "#EE2277",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Josefin Sans",
+    "fontBody": "Poppins",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Aparelhos",
+            "href": "#aparelhos"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Balneário Camboriú",
+        "h1": "Do rosto ao laser, na Rua 620",
+        "lead": "A unidade de Balneário Camboriú da Emporium da Beleza: Ultraformer 3, laser Lavieen, emagrecimento e depilação a laser, sempre a partir de uma avaliação.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "4,6 no Google · 183 avaliações · BC · ",
+        "cardTitulo": "Fale com a unidade",
+        "imagem": "fotos/fachada-retrato.jpg",
+        "imagemAlt": "Fachada rosa da Emporium da Beleza na Rua 620, Centro de Balneário Camboriú",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Ultraformer 3",
+          "Lavieen",
+          "Toxina botulínica",
+          "Preenchimento",
+          "Bioestimulador de colágeno",
+          "Skinbooster",
+          "Emagrecimento",
+          "Depilação a laser"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Antes de marcar, o que já dá para saber",
+        "itens": [
+          {
+            "valor": "4,6",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "183",
+            "rotulo": "avaliações de quem já passou pela unidade",
+            "contar": 183
+          },
+          {
+            "valor": "2005",
+            "rotulo": "ano em que a rede nasceu, em Curitiba"
+          },
+          {
+            "valor": "3",
+            "rotulo": "frentes no mesmo endereço: rosto, corpo e laser",
+            "contar": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A unidade",
+        "citacao": "Antes do aparelho, a avaliação.",
+        "texto": [
+          "A Emporium da Beleza começou em Curitiba, em 2005, com uma ideia simples: reunir estética facial, corporal, depilação a laser e emagrecimento num endereço só, para a paciente não precisar montar o próprio tratamento em três clínicas diferentes.",
+          "Em Balneário Camboriú, esse endereço é a casa rosa da Rua 620, no Centro. Cada protocolo começa na avaliação: é ali que se decide o aparelho, quantas sessões e o intervalo entre elas."
+        ],
+        "imagem": "fotos/sala.jpg",
+        "imagemAlt": "Sala de atendimento da unidade, com maca e parede de madeira"
+      }
+    },
+    {
+      "custom": "blocos/aparelhos.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Do rosto ao corpo. O que cabe no seu caso sai da avaliação, não do cardápio.",
+        "itens": [
+          {
+            "nome": "Ultrassom microfocado",
+            "descricao": "Firmeza para rosto e pescoço com o Ultraformer 3, sem agulha e sem corte. Indicado para flacidez leve a moderada.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Laser Lavieen",
+            "descricao": "Manchas, poros dilatados, textura irregular e pele sem viço. Sessões em série, com cuidado redobrado com o sol entre elas.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa, da glabela e dos olhos, mantendo o rosto com movimento.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento com ácido hialurônico",
+            "descricao": "Repõe volume e contorno em pontos escolhidos com você: lábios, olheiras, malar, mandíbula.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Bioestimulador e skinbooster",
+            "descricao": "Um estimula o colágeno da própria pele ao longo dos meses; o outro hidrata por dentro. Muitas vezes andam juntos.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Emagrecimento e corporal",
+            "descricao": "Protocolos para gordura localizada, medidas e flacidez do corpo, combinando aparelho e acompanhamento.",
+            "icone": "nutricao"
+          },
+          {
+            "nome": "Depilação a laser",
+            "descricao": "Feminina e masculina, por área. Sessões recorrentes que acompanham o ciclo de crescimento do pelo.",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Da primeira mensagem até a última sessão do protocolo.",
+        "itens": [
+          {
+            "titulo": "Conversa pelo WhatsApp",
+            "texto": "Você conta o que quer tratar e a recepção encontra um horário de avaliação na unidade.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "Uma profissional examina a pele ou a região, explica as opções e indica o protocolo para o seu caso.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Protocolo no calendário",
+            "texto": "Você sai sabendo quantas sessões são e o intervalo entre elas. É o que garante o resultado.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Sessões e revisão",
+            "texto": "Cada sessão no seu tempo, com revisão para conferir a evolução e ajustar o que for preciso.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já passou pela unidade",
+        "itens": [
+          {
+            "texto": "Cautelosa e prestativa, me tranquilizou na aplicação do preenchimento. Sem pressa para finalizar, tirou todas as minhas dúvidas e me fez querer voltar.",
+            "autor": "Angela F.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Conheço a clínica de BC desde 2021. Avaliação com explicação do procedimento indicado e cada protocolo muito bem feito. Já indiquei outras pacientes.",
+            "autor": "Helena",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Sou medrosa com agulhas e ela foi atenciosa, cuidadosa e paciente comigo durante todo o processo.",
+            "autor": "Yasmin M.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "O Ultraformer dói?",
+            "r": "A sensação é de calor e de pequenas fisgadas nos pontos de aplicação. A intensidade é ajustada durante a sessão, e a maioria das pacientes volta à rotina no mesmo dia."
+          },
+          {
+            "p": "Quanto tempo a pele fica vermelha depois do Lavieen?",
+            "r": "Costuma ficar avermelhada por alguns dias. Nesse período, protetor solar e nada de sol direto. Na avaliação você recebe as orientações para antes e depois."
+          },
+          {
+            "p": "Quantas sessões de depilação a laser são necessárias?",
+            "r": "Depende da área, da cor do pelo e da pele. O laser age no pelo em fase de crescimento, por isso o número de sessões e o intervalo entre elas são definidos na avaliação."
+          },
+          {
+            "p": "Vocês atendem homens?",
+            "r": "Sim. A depilação a laser tem protocolo masculino, e os tratamentos faciais e corporais também atendem homens."
+          },
+          {
+            "p": "Preciso fazer avaliação antes?",
+            "r": "Sim. É nela que se decide o procedimento, o produto e o número de sessões. Comece pelo WhatsApp para marcar."
+          },
+          {
+            "p": "Quais formas de pagamento?",
+            "r": "Cartão de crédito, débito e pagamento por aproximação no celular. Condições de parcelamento, pelo WhatsApp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "fotos/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp o que você quer tratar e a recepção encontra um horário na unidade da Rua 620.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Os resultados variam de pessoa para pessoa. Todo procedimento é indicado após avaliação. Unidade de Balneário Camboriú da rede Emporium da Beleza."
+      }
+    }
+  ]
+}

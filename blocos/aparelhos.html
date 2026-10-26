@@ -1,0 +1,86 @@
+<section class="blk-aparelhos" id="aparelhos">
+  <div class="wrap">
+    <div class="blk-aparelhos__cab" data-reveal>
+      <p class="blk-aparelhos__eyebrow">Os aparelhos da unidade</p>
+      <h2 class="blk-aparelhos__titulo">Os nomes que você já pesquisou</h2>
+      <p class="blk-aparelhos__lead">Quem procura rejuvenescimento costuma chegar sabendo o nome do aparelho. Aqui está o que cada um faz e como costuma ser o ritmo das sessões.</p>
+    </div>
+    <div class="blk-aparelhos__grade">
+      <article class="blk-aparelhos__card" data-reveal style="--d:0ms">
+        <span class="blk-aparelhos__ico"><!--icone:ultrassom--></span>
+        <p class="blk-aparelhos__tipo">Ultrassom microfocado</p>
+        <h3>Ultraformer 3</h3>
+        <p class="blk-aparelhos__para">Leva energia às camadas profundas da pele, onde fica a sustentação do rosto e do pescoço. É o aparelho de quem quer firmeza sem agulha e sem corte.</p>
+        <p class="blk-aparelhos__ritmo"><span>Ritmo</span>Em geral uma sessão, com revisão marcada na avaliação.</p>
+      </article>
+      <article class="blk-aparelhos__card" data-reveal style="--d:140ms">
+        <span class="blk-aparelhos__ico"><!--icone:laser--></span>
+        <p class="blk-aparelhos__tipo">Laser fracionado de túlio</p>
+        <h3>Lavieen</h3>
+        <p class="blk-aparelhos__para">Trabalha a superfície: manchas, poros, textura e viço. Pede poucos dias de pele avermelhada e protetor solar sem desculpa.</p>
+        <p class="blk-aparelhos__ritmo"><span>Ritmo</span>Em série, com intervalo entre sessões definido para a sua pele.</p>
+      </article>
+      <article class="blk-aparelhos__card" data-reveal style="--d:280ms">
+        <span class="blk-aparelhos__ico"><!--icone:pele--></span>
+        <p class="blk-aparelhos__tipo">Feminina e masculina</p>
+        <h3>Depilação a laser</h3>
+        <p class="blk-aparelhos__para">Reduz os pelos área por área, do buço às pernas. Funciona por ciclos de crescimento, por isso o resultado vem da constância.</p>
+        <p class="blk-aparelhos__ritmo"><span>Ritmo</span>Sessões recorrentes; pular uma atrasa o ciclo inteiro.</p>
+      </article>
+    </div>
+    <p class="blk-aparelhos__fim" data-reveal>Não sabe qual é o seu caso? <a href="#contato">Comece pela avaliação</a>.</p>
+  </div>
+</section>
+
+<style>
+.blk-aparelhos{padding-block:var(--sp-section)}
+.blk-aparelhos__cab{max-width:42rem;margin-bottom:var(--sp-5)}
+.blk-aparelhos__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-aparelhos__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-aparelhos__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-aparelhos__grade{display:grid;gap:var(--sp-3)}
+.blk-aparelhos__card{
+  display:flex;flex-direction:column;padding:var(--sp-5) var(--sp-4) var(--sp-4);
+  border-radius:var(--radius);
+  background:color-mix(in srgb,var(--pulse) 7%,var(--bg));
+  border:1px solid color-mix(in srgb,var(--pulse) 30%,transparent);
+}
+.blk-aparelhos__card:nth-child(2){background:var(--brand);border-color:var(--brand)}
+.blk-aparelhos__ico{display:inline-flex;width:2.6rem;height:2.6rem;color:var(--brand)}
+.blk-aparelhos__ico svg{width:100%;height:100%}
+.blk-aparelhos__tipo{
+  margin:var(--sp-3) 0 0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);
+  text-transform:uppercase;color:color-mix(in srgb,var(--ink) 60%,transparent);
+}
+.blk-aparelhos__card h3{
+  margin:var(--sp-1) 0 0;font-family:var(--f-display);font-weight:600;
+  font-size:clamp(2rem,5vw,2.6rem);line-height:1.05;color:var(--ink);
+}
+.blk-aparelhos__para{margin:var(--sp-2) 0 0;font-size:1rem;line-height:1.6;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-aparelhos__ritmo{
+  margin:auto 0 0;padding-top:var(--sp-3);font-size:.95rem;line-height:1.5;
+  color:color-mix(in srgb,var(--ink) 80%,transparent);
+}
+.blk-aparelhos__ritmo span{
+  display:block;margin-bottom:.35rem;padding-top:var(--sp-2);
+  border-top:1px solid color-mix(in srgb,var(--pulse) 40%,transparent);
+  font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-aparelhos__card:nth-child(2) .blk-aparelhos__ico,
+.blk-aparelhos__card:nth-child(2) h3{color:var(--bg)}
+.blk-aparelhos__card:nth-child(2) .blk-aparelhos__tipo,
+.blk-aparelhos__card:nth-child(2) .blk-aparelhos__para,
+.blk-aparelhos__card:nth-child(2) .blk-aparelhos__ritmo{color:color-mix(in srgb,var(--bg) 86%,transparent)}
+.blk-aparelhos__card:nth-child(2) .blk-aparelhos__ritmo span{color:var(--bg);border-color:color-mix(in srgb,var(--bg) 40%,transparent)}
+.blk-aparelhos__fim{margin:var(--sp-4) 0 0;font-size:1.05rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+.blk-aparelhos__fim a{color:var(--brand);font-weight:600;text-underline-offset:.2em}
+@media (min-width:56rem){
+  .blk-aparelhos__grade{grid-template-columns:repeat(3,1fr);gap:var(--sp-4)}
+}
+</style>
